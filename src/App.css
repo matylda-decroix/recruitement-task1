@@ -1,0 +1,60 @@
+ul {
+    list-style: none;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+li {
+    margin: 10px;
+}
+
+h2{
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container-cloud {
+    width: 500px;
+    height: 250px;
+    border: 2px solid black;
+    margin-bottom: 25px;
+}
+
+input[type="checkbox"]{
+    display:none;
+}
+
+.selected{
+    color:grey;
+}
+
+.correct{
+    color:green;
+}
+
+.correct::before {
+    display:block;
+    content:"Good"
+}
+
+.incorrect {
+    color: red;
+}
+
+.incorrect::before {
+    display:block;
+    content:"Bad"
+}
+
+.resultPoints {
+    color: #0096FF
+}
+
+
+
